@@ -6,3 +6,4 @@ const projectSchema = new mongoose.Schema({
     isActive: {type: Boolean, default: true}
 });
 
+module.exports = mongoose.model('Project', projectSchema);
